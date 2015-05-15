@@ -191,7 +191,8 @@ body {
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
-    color: #3A4145;
+    color: #000;
+    opacity: 0.9;
 }
 
 ::-moz-selection {
@@ -222,11 +223,11 @@ h2 {
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h5 {
@@ -238,12 +239,16 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
-    transition: color 0.3s ease;
+    color: #000;
+    opacity: 0.95;
+    transition: opacity 0.3s ease;
+    border-bottom: 0.1em dashed #000;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #111;
+    opacity: 1.0;
+    border-bottom: 0;
 }
 
 p, ul, ol, dl {
@@ -299,11 +304,13 @@ blockquote {
     box-sizing: border-box;
     margin: 1.75em 0 1.75em -2.2em;
     padding: 0 0 0 1.75em;
-    border-left: #4A4A4A 0.4em solid;
+    border-left: #ccc 0.1em solid;
 }
 
 blockquote p {
     margin: 0.8em 0;
+    font-family: 'Chronicle SSm A', 'Chronicle SSm B';
+    font-weight: 400; 
     font-style: italic;
 }
 
@@ -317,7 +324,7 @@ blockquote small {
 blockquote small:before { content: "\2014 \00A0"; }
 
 blockquote cite {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 blockquote cite a { font-weight: normal; }
@@ -936,6 +943,7 @@ body:not(.post-template) .post-title {
 
 .post-title a {
     text-decoration: none;
+    border-bottom: none;
 }
 
 .post-excerpt p {
@@ -956,7 +964,8 @@ body:not(.post-template) .post-title {
     font-style: italic;
     font-size: 1.5rem;
     line-height: 2.2rem;
-    color: #9EABB3;
+    color: #000000;
+    opacity: 0.8;
 }
 
 .author-thumb {
@@ -968,12 +977,9 @@ body:not(.post-template) .post-title {
 }
 
 .post-meta a {
-    color: #9EABB3;
-    text-decoration: underline;
 }
 
 .post-meta a:hover {
-    text-decoration: none;
 }
 
 .user-meta {
