@@ -1597,6 +1597,22 @@ body:not(.post-template) .post-title {
     float: left;
 }
 
+/* ==========================================================================
+   Side Rant, TLDR
+   ========================================================================== */
+
+.side-rant {
+  background-color: #FDF6E4;
+  padding: 1em;
+  margin-bottom:1.75em;
+}
+
+.tldr {
+  background-color: #D7F1FD;
+  padding: 1em;
+  margin-bottom:1.75em;
+}
+
 
 /* ==========================================================================
    11. Media Queries - Smaller than 900px
