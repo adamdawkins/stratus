@@ -42,7 +42,7 @@ body { margin: 0; }
 a { background: transparent; }
 a:focus { outline: thin dotted; }
 a:active, a:hover { outline: 0; }
-h1 { font-size: 2em; margin: 0.67em 0; }
+h1 { font-size: 2em; line-height: 3.24em;}
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: 700; }
 dfn { font-style: italic; }
@@ -53,10 +53,10 @@ hr {
 }
 mark { background: #FF0; color: #000; }
 code, kbd, pre,
-samp { font-family: monospace, serif; font-size: 1em; }
+samp { font-family: monospace, serif; font-size: 1em; line-height: 1.62em }
 pre { white-space: pre-wrap; }
 q { quotes: "\201C" "\201D" "\2018" "\2019"; }
-small { font-size: 80%; }
+small { font-size: 80%; line-height: 129% }
 sub, sup {
    font-size: 75%;
    line-height: 0;
@@ -874,7 +874,7 @@ body.nav-opened .nav {
 .page-description {
     margin: 0;
     font-size: 2rem;
-    line-height: 1.5em;
+    line-height: 3.24rem;
     font-weight: 400;
     font-family: "Sentinel SSm A", "Sentinel SSm B", serif;
     letter-spacing: 0.01rem;
@@ -949,7 +949,7 @@ body:not(.post-template) .post-title {
 .post-excerpt p {
     margin: 0;
     font-size: 0.9em;
-    line-height: 1.7em;
+    line-height: 1.46em;
 }
 
 .read-more {
@@ -963,7 +963,7 @@ body:not(.post-template) .post-title {
     font-weight: 400;
     font-style: italic;
     font-size: 1.5rem;
-    line-height: 2.2rem;
+    line-height: 1.75rem;
     color: #000000;
     opacity: 0.8;
 }
@@ -1012,7 +1012,7 @@ body:not(.post-template) .post-title {
     display: block;
     max-width: 440px;
     font-size: 1.4rem;
-    line-height: 1.5em;
+    line-height: 1.64rem;
 }
 
 .publish-meta {
