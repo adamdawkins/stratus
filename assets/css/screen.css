@@ -251,6 +251,11 @@ a:hover {
     border-bottom: 0;
 }
 
+a[rel="footnote"] {
+  border-bottom: none;
+  color: #F5A623;
+}
+
 p, ul, ol, dl {
     margin: 0 0 1.75em 0;
 }
@@ -520,7 +525,6 @@ body.nav-opened .site-wrapper {
 
 .main-nav a {
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
 }
 
 /* Navigation */
@@ -652,12 +656,7 @@ body.nav-opened .nav {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-}
-.nav li a:after {
-    display: inline-block;
-    content: " .......................................................";
-    color: rgba(255,255,255,0.2);
-    margin-left: 5px;
+    border-bottom: none;
 }
 .nav .nav-current:before {
     color: #fff;
