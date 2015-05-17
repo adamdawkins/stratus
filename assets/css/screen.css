@@ -728,6 +728,7 @@ body.nav-opened .nav {
     transform: rotate(-90deg);
     -webkit-animation: bounce 4s 2s infinite;
     animation: bounce 4s 2s infinite;
+    border-bottom: none;
 }
 
 /* Stop it bouncing and increase contrast when hovered */
